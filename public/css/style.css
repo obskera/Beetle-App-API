@@ -1,0 +1,378 @@
+@media screen and (min-width: 1101px) {
+  body{
+    margin: none;
+    /* 'https://beetle-app-api.herokuapp.com/public/images/bg.png' */
+    /* background-image:  url('http://localhost:8080/static/images/bg.png'); */
+    background-image: url('/images/bg.png');
+    font-size: 62.5%;
+  }
+  #container{
+    width: 100%;
+    position: absolute; left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    margin-top: 4%;
+  }
+  #h1{
+    /* align-items: center; */
+    width: 50%;
+    height: 75px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #people{
+    /* width: 100%; */
+    width: 45%;
+    min-height: fit-content;
+    flex-basis: content;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #report{
+    width: 50%;
+    min-height: fit-content;
+    /* flex-basis: content; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #report *{
+    margin: 0.8%;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  #add{
+    width: 50%;
+    min-height: fit-content;
+    /* flex-basis: content; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #add *{
+    justify-content: center;
+    margin: 0.8%;
+    margin-left: 5%;
+  }
+
+  section{
+    border: 5px solid black;
+    margin: 1%;
+  }
+  section#container{
+    border: none;
+  }
+  #holding{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    border: 5px solid black;
+  }
+  li *{
+    margin: 2%;
+  }
+}
+@media screen and (max-Width: 1100px) {
+  body{
+    margin: none;
+    /* 'https://beetle-app-api.herokuapp.com/public/images/bg.png' */
+    background-image: url('/images/bg.png');
+    font-size: 62.5%;
+  }
+  #container{
+  width: 100%;
+  position: absolute; left: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+  h1{
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+    
+  }
+  #h1{
+    /* align-items: center; */
+    width: 50%;
+    height: 75px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+    
+  }
+  #people{
+    /* width: 100%; */
+    width: 75%;
+    min-height: fit-content;
+    flex-basis: content;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+    
+  }
+  #report{
+    width: 50%;
+    min-height: fit-content;
+    /* flex-basis: content; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #report *{
+    margin: 0.8%;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  #add{
+    width: 50%;
+    min-height: fit-content;
+    /* flex-basis: content; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #add *{
+    justify-content: center;
+    margin: 0.8%;
+    margin-left: 5%;
+  }
+
+  section{
+    border: 5px solid black;
+    margin: 1%;
+  }
+  section#container{
+    border: none;
+  }
+  #holding{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  ul{
+    list-style: none;
+  
+  }
+  li{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+  }
+  li *{
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 540px) {
+  body{
+    margin: none;
+    /* 'https://beetle-app-api.herokuapp.com/public/images/bg.png' */
+    background-image: url('/images/bg.png');
+    font-size: 62.5%;
+  }
+  #container{
+  width: 100%;
+  position: absolute; left: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+  h1{
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+  }
+  #h1{
+    /* align-items: center; */
+    width: 90%;
+    height: 75px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+    
+  }
+  #people{
+    /* width: 100%; */
+    width: 90%;
+    min-height: fit-content;
+    flex-basis: content;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+    font-size: 1rem;
+  }
+  #report{
+    width: 90%;
+    min-height: fit-content;
+    /* flex-basis: content; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #report *{
+    margin: 0.8%;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  #add{
+    width: 90%;
+    min-height: fit-content;
+    /* flex-basis: content; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+  }
+  #add *{
+    justify-content: center;
+    margin: 0.8%;
+    margin-left: 5%;
+  }
+
+  section{
+    border: 5px solid black;
+    margin: 1%;
+  }
+  section#container{
+    border: none;
+  }
+  #holding{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+  }
+  ul{
+    list-style:square;
+    margin: 0%;
+  
+  }
+  li{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-left: 0%;
+  }
+  li *{
+    margin: 2%;
+  }
+}
+#renderStandings{
+  align-self: center;
+  text-align: center;
+  margin-left: 40%;
+  margin-bottom: 1%;
+}
+#canvasArea{
+  border: none;
+}
+/* #h1{
+  flex-direction: row;
+} */
+#beetle{
+  
+  width: 100%;
+ }
+#beetleLogo{
+  text-align: center;
+  /* font-size: 1rem;
+  margin-bottom: 2%;
+  margin-top: 4%; */
+
+  width: 60%;
+    /* height: 100px; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(175, 194, 197, 0.62);
+    
+}
