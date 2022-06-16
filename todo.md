@@ -25,4 +25,5 @@ foo() {
   args = {stuff} // declare to simplify line below
   let bar = await dbapi.put(args) // call class above
 }
+
 ```
