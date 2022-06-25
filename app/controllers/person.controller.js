@@ -33,7 +33,7 @@ exports.create = async (req, res) => {
         //}
     }
     const dupeCheck = _ => {
-        console.log(req.body.name)
+        //console.log(req.body.name)
         let arr = []
         isEmpty()
         Person.find()
@@ -69,7 +69,7 @@ exports.findAll = (req, res) => {
 exports.findOne = async (req, res) => {
     Person.findOne({name: req.params.name})
         .then(person => {
-            console.log(person)
+            //console.log(person)
             if (!person) {
                 res.status(404).send({
                     message: "Not found with name " + req.params.name
@@ -133,7 +133,7 @@ exports.delete = (req, res) => {
             } else {
                 Person.deleteOne({name: req.params.name})
                 .then(person => {
-                    console.log(person)
+                    //console.log(person)
                     if(!person) {
                         return res.status(404).send({
                             message: "Not found with name " + req.params.name
